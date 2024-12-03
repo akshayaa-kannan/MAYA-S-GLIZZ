@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Parlour</title>
+    <style>
+        /* Reset styles */
+        body, h1, h2, h3, p {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: url('mayaaaa.jpeg') ;
+            background-size: cover;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: url('mayaaaa.jpeg') ;
+            background-size: cover;
+            border-radius: 10px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color:rgb(121, 77, 34);
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        .services {
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .services h2 {
+            font-size: 2em;
+            color: #866d31;
+            margin-bottom: 20px;
+        }
+
+        .service-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .service {
+            background: url('container\ bg.jpeg') ;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            max-width: 250px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .service:hover {
+            transform: scale(1.05);
+        }
+
+        .service img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .service h3 {
+            font-size: 1.5em;
+            color: #a77e25;
+            margin-bottom: 10px;
+        }
+
+        .service p {
+            font-size: 1em;
+            color: #555;
+        }
+
+        .contact {
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 2em;
+            color: #843d11;
+            margin-bottom: 10px;
+        }
+
+        .contact p {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #ae892a;
+            color: #fff;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MAYA'S GLIZZ</h1>
+            <p>Enhancing your beauty, naturally.</p>
+        </header>
+
+        <main>
+            <section class="services">
+                <h2>Our Services</h2>
+                <div class="service-list">
+                    <div class="service">
+                        <img src="C:\Users\Kannan_ins\OneDrive\Desktop\maya's glizz\HAIRSTYLE.jpeg" alt="Hair Styling">
+                        <h3>Hair Styling</h3>
+                        <p>Elegant haircuts, blow-dries, and styling for any occasion.</p>
+                    </div>
+                    <div class="service">
+                        <img src="C:\Users\Kannan_ins\OneDrive\Desktop\maya's glizz\FACIAL TREATEMENTS.jpeg" alt="Facial">
+                        <h3>Facial Treatments</h3>
+                        <p>Relaxing facials tailored to your skin type for a glowing look.</p>
+                    </div>
+                    <div class="service">
+                        <img src="C:\Users\Kannan_ins\OneDrive\Desktop\maya's glizz\MANICURE.jpeg" alt="Manicure & Pedicure">
+                        <h3>Manicure & Pedicure</h3>
+                        <p>Pamper your hands and feet with our luxurious care.</p>
+                    </div>
+                    <div class="service">
+                        <img src="C:\Users\Kannan_ins\OneDrive\Desktop\maya's glizz\MAKEUP (2).jpeg" alt="Makeup Services">
+                        <h3>Makeup Services</h3>
+                        <p>Professional makeup for weddings, parties, and special events.</p>
+                    </div>
+                    <div class="service">
+                        <img src="C:\Users\Kannan_ins\OneDrive\Desktop\maya's glizz\WAXING.jpeg" alt="Waxing">
+                        <h3>Waxing</h3>
+                        <p>Smooth and gentle waxing services for flawless skin.</p>
+                    </div>
+                    <div class="service">
+                        <img src="C:\Users\Kannan_ins\OneDrive\Desktop\maya's glizz\BRIDAL MAKEUP.jpeg" alt="Bridal Packages">
+                        <h3>Bridal Packages</h3>
+                        <p>Customized bridal packages to make your special day perfect.</p>
+                    </div>
+                    <div class="service">
+                        <img src="C:\Users\Kannan_ins\OneDrive\Desktop\maya's glizz\EYELASH EXTENSION.jpeg" alt="Eyelash Extensions">
+                        <h3>Eyelash Extensions</h3>
+                        <p>Enhance your eyes with natural or dramatic lash extensions.</p>
+                    </div>
+                    <div class="service">
+                        <img src="C:\Users\Kannan_ins\OneDrive\Desktop\maya's glizz\HAIR COLOURING.jpeg" alt="Hair Coloring">
+                        <h3>Hair Coloring</h3>
+                        <p>Creative and professional hair coloring services.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact">
+                <h2>Contact Us</h2>
+                <p>We’d love to hear from you! Book your appointment today.</p>
+                <p><strong>Email:</strong> contact@radiancebeauty.com</p>
+                <p><strong>Phone:</strong> +123-456-7890</p>
+                <p><strong>Address:</strong> 123 Beauty Lane, Glamour City</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2024 Radiance Beauty Parlour. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
